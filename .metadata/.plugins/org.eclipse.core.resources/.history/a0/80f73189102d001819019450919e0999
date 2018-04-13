@@ -1,0 +1,18 @@
+package com.cn;
+
+public class Test123 {
+
+	public static void main(String[] args) {
+
+		Animal an=new Animal("zhangshan");
+		System.out.println(an.name);
+	}
+}
+ class Animal{
+	 
+	 String name;
+	 int age;
+	 
+	
+	
+}

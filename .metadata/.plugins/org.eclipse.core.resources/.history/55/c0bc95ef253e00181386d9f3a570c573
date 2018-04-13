@@ -1,0 +1,36 @@
+package com.cn.biaozhun;
+
+import java.util.Scanner;
+
+public class TestLiucheng {
+
+	public static void main(String[] args) {
+		
+		int i=10;
+		
+		Scanner tt=new Scanner(System.in);
+		System.out.println("请猜想：");
+		int ee=tt.nextInt();
+			//if else
+//		if (ee==10){
+//			System.out.println("猜对了");
+//		}else {
+//			System.out.println("猜错了");
+//		}
+			//else if
+//			if (ee<10&&ee>1){
+//				System.out.println("猜小了");
+//				
+//			}else if(ee>10){
+//				System.out.println("猜大了");
+//				
+//			}else if(ee==10){
+//				System.out.println("恭喜你，猜对了");
+//			}else if(ee<0) {
+//				System.out.println("请输入正整数！");
+//			}
+		//while
+	}
+	
+
+}

@@ -1,0 +1,30 @@
+package com.cn.biaozhun;
+
+public class TestArray {
+
+	public static void main(String[] args) {
+		int score[]={11,22,55,33,88,77,66,99};
+		//Çó×îÖµ
+		int max=score[0];
+		for(int i=1;i<score.length;i++){
+			if(score[i]>max){
+				max=score[i];
+			}
+		}
+		
+		
+		//Ã°ÅÝÅÅÐò
+//		for (int i=1;i<score.length;i++){
+//			for(int j=0;j<score.length;j++){
+//				if(score[i]<score[j]){
+//					int temp=score[i];
+//					score[i]=score[j];
+//					score[j]=temp;
+//				}
+//			}
+//		}
+//		for(int r=0;r<score.length;r++){
+//			System.out.println(score[r]);
+//		}
+	}
+}

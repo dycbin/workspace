@@ -1,0 +1,21 @@
+package com.cn;
+
+public class Test123 {
+
+	public static void main(String[] args) {
+
+		Animal an=new Animal();
+	}
+}
+ class Animal{
+	 
+	 String name;
+	 
+	 Animal(String name){
+		 System.out.println("mingz"+name);
+	 }
+	 public String getname(){
+		 
+		 return name;
+	 }
+}

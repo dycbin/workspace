@@ -1,0 +1,13 @@
+package com.cn;
+
+public class Test123 {
+
+	public static void main(String[] args) {
+
+	}
+}
+public class Tersion(){
+	public Tersion(String name){
+		System.out.println("Œ“ «£∫"+name);
+	}
+}

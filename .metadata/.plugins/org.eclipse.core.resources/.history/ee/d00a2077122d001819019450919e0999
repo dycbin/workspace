@@ -1,0 +1,19 @@
+package com.cn;
+
+public class Test123 {
+
+	public static void main(String[] args) {
+
+		Animal an=new Animal();
+		an.setName("’≈…Ω");
+		an.setAge(30);
+		an.show();
+	}
+}
+ class Animal{
+	 
+	private  String name;
+	public String getName() {
+		
+	}
+}
